@@ -1,22 +1,20 @@
-# README for OctoAcme Project Management Docs
+# OctoAcme Project Management Docs — README
 
-## Summary
-This pull request adds a comprehensive README to the `docs/` folder that serves as a single entry point for all OctoAcme project management process documentation.
+Welcome! This README provides an overview of how projects are managed at OctoAcme and links to each process and role reference doc.
 
-## What's Included
-- **Project Management Approach Overview:** Summary of OctoAcme's customer-first, iterative, and data-driven delivery methodology with core principles
-- **Process Docs Index:** Complete listing of all 8 process documents with direct links and one-line descriptions
-- **Getting Started Guidance:** Tailored navigation paths for Team Members, Project Leads, and Contributors
-- **Maintenance Instructions:** Guidance for keeping the documentation current
+## Project Management Approach
 
-## Addresses
-Resolves #2: "[Process Doc Update]: README for OctoAcme Project Management Docs — links to all docs, summary of PM processes, and README requirements"
+OctoAcme employs a structured, iterative approach to project management built on customer-first principles and clear ownership. The core lifecycle consists of initiation, planning, execution, release, and retrospective phases. Project Managers coordinate delivery, Product Managers define outcomes and priorities, Developers implement features with QA validating quality, and Stakeholders provide input throughout. Workflows emphasize transparent tracking via project boards, frequent communication, and regular reviews, with rigorous quality assurance embedded through automated testing, manual QA, and risk management. The organization fosters psychological safety, continuous improvement, and rapid, data-informed action.
 
-## Impact
-- ✅ Improves discoverability of process documentation
-- ✅ Reduces onboarding friction for new team members
-- ✅ Provides holistic orientation to OctoAcme's project management approach
-- ✅ Creates a single source of truth for PM process documentation
+## Process Docs Index
 
-## Files Changed
-- `docs/README.md` (new file)
+- [Project Management Overview](./octoacme-project-management-overview.md): Principles, roles, lifecycle overview
+- [Project Initiation Guide](./octoacme-project-initiation.md): One-pager, stakeholder alignment, decision gates
+- [Project Planning](./octoacme-project-planning.md): Backlog creation, estimation, risk management, planning checklist
+- [Execution & Tracking](./octoacme-execution-and-tracking.md): Delivery rhythm, workflows, escalation paths
+- [Risks and Communication](./octoacme-risks-and-communication.md): Risk register, escalation, stakeholder updates
+- [Release & Deployment Guide](./octoacme-release-and-deployment.md): Release types, checklists, rollback process
+- [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md): Learning reviews, action tracking
+- [Roles and Personas](./octoacme-roles-and-personas.md): Responsibilities and expectations per role
+
+Please add or edit doc links as new process documents are introduced.
