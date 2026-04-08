@@ -1,81 +1,37 @@
-# OctoAcme Personas
+# Expanded Persona Definitions
 
-This document defines typical roles and responsibilities used in OctoAcme project docs and exercises.
+## Business Analyst
+- **Responsibilities**: Identify business needs, gather and document requirements, and facilitate communication between stakeholders and the technical team.
+- **Goals**: Ensure deliverables meet business objectives, improve processes, and support decision-making with data.
+- **Communication Patterns**: Regularly communicates with stakeholders to gather requirements and provides updates to the project team.
+- **Interactions with Existing Roles**: Works closely with the development team to ensure requirements are understood and implemented correctly, and with Product Owners to align on business priorities.
 
----
+## QA Lead
+- **Responsibilities**: Oversee the quality assurance process, develop testing strategies, and manage QA resources.
+- **Goals**: Ensure all product releases meet quality standards and are free of defects.
+- **Communication Patterns**: Provides feedback to developers on defects and their resolution; communicates with management on testing status and quality metrics.
+- **Interactions with Existing Roles**: Collaborates with developers for testing scenarios and works with the Business Analyst to understand user requirements.
 
-## Developers
+## DevOps Engineer
+- **Responsibilities**: Implement and manage the infrastructure for software deployment and operate CI/CD pipelines.
+- **Goals**: Enhance development speed and efficiency while ensuring system stability and performance.
+- **Communication Patterns**: Regularly liaises with development, QA, and operations teams to optimize workflows and resolve issues.
+- **Interactions with Existing Roles**: Works closely with Developers to automate processes and assists in resolving deployment-related issues.
 
-### Role Summary
-Developers design, build, test, and deliver software components. They collaborate with product and project leads to implement features that meet acceptance criteria and quality standards.
+## UX/UI Designer
+- **Responsibilities**: Design user interfaces and user experiences that are intuitive and engaging.
+- **Goals**: Create user-centered designs that improve usability and enhance user satisfaction.
+- **Communication Patterns**: Participates in design reviews and user feedback sessions, collaborating closely with developers to implement designs.
+- **Interactions with Existing Roles**: Works with Business Analysts to understand user requirements and QA engineers to ensure design fidelity.
 
-### Responsibilities
-- Implement features and fixes to meet acceptance criteria
-- Write and maintain tests and documentation
-- Participate in design and code reviews
-- Assist in estimating and planning work
-- Help identify technical risks and propose mitigations
+## Scrum Master / Agile Coach
+- **Responsibilities**: Facilitate Agile practices and ensure the team adheres to Scrum principles.
+- **Goals**: Improve team productivity and foster a culture of continuous improvement.
+- **Communication Patterns**: Leads daily stand-ups, sprint planning, and retrospectives, ensuring open communication among team members.
+- **Interactions with Existing Roles**: Collaborates with Product Owners to align on priorities and assists the development team in overcoming obstacles.
 
-### Goals
-- Deliver reliable, maintainable code
-- Reduce cycle time from idea to production
-- Maintain high test coverage and observability
-
-### Typical Communication
-- Daily standups and sprint planning
-- PR descriptions and code review comments
-- Technical design docs when needed
-
----
-
-## Product Managers
-
-### Role Summary
-Product Managers define what should be built to deliver customer and business value. They own the product vision, prioritize the backlog, and measure outcomes.
-
-### Responsibilities
-- Define problem statements and success metrics
-- Prioritize the roadmap and backlog
-- Collaborate with stakeholders and engineering on trade-offs
-- Validate solutions through user research and metrics
-
-### Goals
-- Maximize customer value and impact
-- Make clear, data-driven prioritization decisions
-- Ensure product-market fit and usability
-
-### Typical Communication
-- Weekly alignment with PM and engineering leads
-- Roadmap updates and stakeholder briefings
-- Acceptance criteria and feature specs
-
----
-
-## Project Managers
-
-### Role Summary
-Project Managers coordinate delivery activities, manage schedules, risks, and communications. They enable the team to deliver on commitments efficiently.
-
-### Responsibilities
-- Create and maintain project plans and timelines
-- Manage risks, dependencies, and resource constraints
-- Facilitate meetings (kickoff, planning, retrospectives)
-- Ensure consistent project documentation and status reporting
-- Coordinate cross-team and stakeholder communication
-
-### Goals
-- Deliver projects on time and within scope
-- Minimize unplanned work and escalations
-- Maintain transparency and alignment across stakeholders
-
-### Typical Communication
-- Weekly status updates and stakeholder reports
-- Risk registers and decision logs
-- Coordination via project boards and meeting facilitation
-
----
-
-## How these personas are used in the exercise
-- Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
-- Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.
-
+## Stakeholder
+- **Responsibilities**: Provide insights and feedback from a business perspective, ensuring the project aligns with business strategy.
+- **Goals**: Ensure the project delivers value to the organization and meets user needs.
+- **Communication Patterns**: Engages with the project team regularly to provide input and feedback; participates in reviews and showcases.
+- **Interactions with Existing Roles**: Works with Business Analysts to convey the needs of the business and with developers to clarify priorities.
